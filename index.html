@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet"
+    href="https://unpkg.com/swiper@8/swiper-bundle.min.css"
+  />
+    <link rel="stylesheet" href="css/style.css">
+    <script src="https://kit.fontawesome.com/5433b20c75.js" crossorigin="anonymous"></script>
+    <script src="https://unpkg.com/swiper@8/swiper-bundle.min.js"></script>
+</head>
+<body>
+    <div class="wrap">
+        <h1>UI/UX <span>PORTFOLIO</span></h1>
+
+        <ul class="auto">
+        </ul>
+
+        <div class="swiper-wrapper">
+            <div class="swiper-slide">
+                <div class="inner">
+                    <div class="con">
+                        <img src="img/pic1.png">
+                        <h2>Man is his own worst</h2>
+                        <p>Man is his own worst enemy.Man is his own worst enemy.Man is his own worst enemy.Man is his own worst enemy.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="swiper-slide">
+                <div class="inner">
+                    <div class="con">
+                        <img src="img/pic2.png">
+                        <h2>Man is his own worst</h2>
+                        <p>Man is his own worst enemy.Man is his own worst enemy.Man is his own worst enemy.Man is his own worst enemy.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="swiper-slide">
+                <div class="inner">
+                    <div class="con">
+                        <img src="img/pic3.png">
+                        <h2>Man is his own worst</h2>
+                        <p>Man is his own worst enemy.Man is his own worst enemy.Man is his own worst enemy.Man is his own worst enemy.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="swiper-slide">
+                <div class="inner">
+                    <div class="con">
+                        <img src="img/pic4.png">
+                        <h2>Man is his own worst</h2>
+                        <p>Man is his own worst enemy.Man is his own worst enemy.Man is his own worst enemy.Man is his own worst enemy.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="swiper-slide">
+                <div class="inner">
+                    <div class="con">
+                        <img src="img/pic5.png">
+                        <h2>Man is his own worst</h2>
+                        <p>Man is his own worst enemy.Man is his own worst enemy.Man is his own worst enemy.Man is his own worst enemy.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="swiper-button-next"></div>
+        <div class="swiper-button-prev"></div>
+
+        <div class="swiper-pagination"></div>
+
+    </div>
+    
+    <script>
+      var swiper = new Swiper(".wrap", {
+        pagination: {
+          el: ".swiper-pagination",
+          type: "fraction",
+        },
+        navigation: {
+          nextEl: ".swiper-button-next",
+          prevEl: ".swiper-button-prev",
+        },
+          slidesPerView: "auto",
+          spaceBetween: 50,
+          loop: true,
+          centeredSlides: true,
+          speed: 1000,
+          direction: "horizontal",
+          effect: "coverflow",
+          colorflowEffect: {
+              rotate: 50,
+              stretch: -100,
+              depth: 400,
+              modifier: 1,
+              slideShadows: false
+          }
+      });
+    </script>
+
+</body>
+</html>
