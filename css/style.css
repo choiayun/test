@@ -10,7 +10,9 @@ ul,ol,li {
 a {
     text-decoration: none;
 }
-
+.modal-backdrop {
+    z-index: -1;
+  }
 
 .swiper-wrapper .swiper-slide .inner .con{
     position: relative;
