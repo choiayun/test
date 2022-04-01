@@ -77,15 +77,6 @@ a {
     opacity: 0.4;
     transition: 1s;
 }
-/*
-.swiper-wrapper .swiper-slide .inner .con .button1{
-    position: relative;
-    z-index: 50;
-}
-.swiper-wrapper .swiper-slide .inner .con{
-    position: relative;
-    z-index: 10;
-}*/
 .swiper-wrapper .swiper-slide .inner .con img{
     width: 100%;
 }
@@ -97,7 +88,7 @@ a {
     margin-top: 15px;
     margin-bottom: 20px;
 }
-/*.swiper-wrapper .swiper-slide .inner .con h2::after {
+.swiper-wrapper .swiper-slide .inner .con h2::after {
     content: "";
     display: block;
     width: 30px;
@@ -109,7 +100,7 @@ a {
 .swiper-wrapper .swiper-slide-active .inner .con h2::after{
     width: 100px;
 }
-.swiper-wrapper .swiper-slide-active .inner .con p{
+/*.swiper-wrapper .swiper-slide-active .inner .con p{
     font-weight: normal;
     font-size: 13px;
     font-family: "arial";
@@ -121,7 +112,7 @@ a {
     opacity: 1;
     box-shadow: 0px 0px 50px rgba(255,255,255,0.8);                                   
 }
-/*.wrap .swiper-wrapper .swiper-slide .inner::before,
+.wrap .swiper-wrapper .swiper-slide .inner::before,
 .wrap .swiper-wrapper .swiper-slide .inner::after {
     content: "";
     display: block;

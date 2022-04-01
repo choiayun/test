@@ -1,5 +1,2 @@
-const title = Document.querySelector("#title");
-console.log(title);
-
-$("#myModal").modal("show");
-$("#myModal").css("z-index", "1500");
+var bootstrapButton = $.fn.button.noConflict() // return $.fn.button to previously assigned value
+$.fn.bootstrapBtn = bootstrapButton            // give $().bootstrapBtn the Bootstrap functionality
